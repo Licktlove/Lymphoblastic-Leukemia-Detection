@@ -89,7 +89,7 @@ python val.py
 
 ## Detection Results
 
-<p align="center"> <img src="figure/result.png" width="80%"> </p>
+<p align="center"> <img src="figure/results.png" width="80%"> </p>
 
 **Figure 2. The detection results of the proposed model.**
 
