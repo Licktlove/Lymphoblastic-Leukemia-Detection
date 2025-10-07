@@ -14,7 +14,7 @@ If our code is helpful to you, please cite:
   volume={196},
   number={110860},
   year={2025},
-  publisher={MDPI}
+  publisher={Elsevier}
 }
 
 ## Requirements
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ### 1. Prepare training data 
 
-- The download link for the NEU-DET data set is [here](########).
+- The download link for the LLD-2024 data set is [here](########).
 ```python
 SGLNet
 ├── LLD-2024
@@ -68,15 +68,14 @@ python val.py
 
 ## Results
 
-|   **Methods**    |   **mAP**   |   **Precision**   | **Recall** |  **GFLOPs** $\downarrow$ | **Params/M** $\downarrow$ | **FPS** |
-|:----------------:|:---------:|:---------:|:---------::-----------------------:|:-------------------------:|:------------:|
-| **RTDETR** |   0.871   | **0.879** |   0.838    |           108.3           |           32.8           |   23.3    |
-|  **YOLOv5**   |   0.923   |   0.871   |   0.866   |           64.0           |           25.0           |   35.7    |
-|  **YOLOv6**   |   0.915 |   0.870   |   0.850   |           44.0           |           16.3           |   **62.5**    |
-|  **YOLOv8**   |   0.920   |   0.867   |   **0.876**   |           80.8           |           27.2           |   34.8    |
-|  **YOLOv9**   |   0.921   |   0.862   |   0.872   |           102.5           |           25.4           |   36.6    |
-| **SGLNet**  |   **0.925**   |   **0.886**   |   0.863   |        **40.8**         |         **12.98**          |   56.1    |
-
+| **Methods** | **mAP** | **Precision** | **Recall** | **GFLOPs** ↓ | **Params (M)** ↓ | **FPS** |
+|:-----------:|:-------:|:-------------:|:----------:|:-------------:|:----------------:|:-------:|
+| **RTDETR**  | 0.871   | **0.879**     | 0.838      | 108.3         | 32.8             | 23.3    |
+| **YOLOv5**  | 0.923   | 0.871         | 0.866      | 64.0          | 25.0             | 35.7    |
+| **YOLOv6**  | 0.915   | 0.870         | 0.850      | 44.0          | 16.3             | **62.5** |
+| **YOLOv8**  | 0.920   | 0.867         | **0.876**  | 80.8          | 27.2             | 34.8    |
+| **YOLOv9**  | 0.921   | 0.862         | 0.872      | 102.5         | 25.4             | 36.6    |
+| **SGLNet**  | **0.925** | **0.886**   | 0.863      | **40.8**      | **12.98**        | 56.1    |
 - Bold indicates first or second best performance.
 
 ## Visualization of results
