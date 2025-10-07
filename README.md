@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ### 1. Prepare training data 
 
-- The download link for the LLD-2024 data set is [here](########).
+- The dataset is available upon reasonable request. Please contact the  author for access.
 ```python
 SGLNet
 ├── LLD-2024
