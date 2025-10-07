@@ -1,31 +1,38 @@
-# Lymphoblastic-Leukemia-Detection
-# High-efficiency spatially guided learning network for lymphoblastic leukemia detection in bone marrow microscopy images
-⭐ This code has been completely released ⭐ 
+<h2 align="center">High-efficiency spatially guided learning network for lymphoblastic leukemia detection in bone marrow microscopy images</h2>
 
-⭐ our [article](https://www.sciencedirect.com/science/article/abs/pii/S0010482525012119) ⭐ 
+<p align="center">
+  Liye Mei<sup>1,2,3</sup>, Chentao Lian<sup>1,2,*</sup>, Suyang Han<sup>3</sup>, Zhaoyi Ye<sup>2,4</sup>, Yuyang Hua<sup>1</sup>, Meixing Sun<sup>1</sup>, Jing He<sup>5</sup>, Zhiwei Ye<sup>1,2</sup>, Mengqing Mei<sup>1</sup>, Yaxiaer   Yalikun<sup>6</sup>, Hui Shen<sup>5</sup>, Cheng Lei<sup>2,7</sup>, Bei Xiong<sup>5</sup>
+</p>
 
-If our code is helpful to you, please cite:
+<p align="center">
+  <sup>1</sup> School of Computer Science, Hubei University of Technology, Wuhan, 430068, China<br>
+  <sup>2</sup> The Institute of Technological Sciences, Wuhan University, Wuhan, 430072, China<br>
+  <sup>3</sup> The Second Clinical School of Wuhan University, Zhongnan Hospital of Wuhan University, Wuhan, 430071, China<br>
+  <sup>4</sup> Electronic Information School, Wuhan University, Wuhan, 430072, China<br>
+  <sup>5</sup> Department of Hematology, Zhongnan Hospital of Wuhan University, Wuhan, 430071, China<br>
+  <sup>6</sup> Division of Materials Science, Nara Institute of Science and Technology, Ikoma, Nara, 630-0192, Japan<br>
+  <sup>7</sup> Shenzhen Institute of Wuhan University, Shenzhen, 518057, China<br>
+  Corresponding author: Hui Shen (<a href="shenhui@znhospital.cn" target="_blank">shenhui@znhospital.cn</a>); 
+  Bei Xiong (<a href="zn001587@whu.edu.cn" target="_blank">zn001587@whu.edu.cn</a>);
+</p>
 
-```
-@article{
-  title={High-efficiency spatially guided learning network for lymphoblastic leukemia detection in bone marrow microscopy images},
-  author={Liye Mei, Chentao Lian, Suyang Han, Zhaoyi Ye, Yuyang Hua, Meixing Sun, Jing He, Zhiwei Ye, Mengqing Mei , Yaxiaer Yalikun, Hui Shen, Cheng Lei, Bei Xiong},
-  journal={Computers in Biology and Medicine},
-  volume={196},
-  number={110860},
-  year={2025},
-  publisher={Elsevier}
-}
+## Overview
+
+<div>
+    <img src="figures/fig1.jpg" width="96%" height="96%">
+</div>
+
+**_Abstract -_** Leukemia is a hematologic tumor that proliferates in bone marrow and seriously affects the survival of patients. Early and accurate diagnosis is crucial for effective leukemia treatment. Traditional diagnostic methods rely on experts’ subjective analysis of bone marrow smears microscopic images. This approach is time-consuming and complex. Despite recent advances in deep learning, automated leukemia detection remains limited due to the scarcity of high-quality datasets, the prevailing focus on single-cell image classification rather than precise cell-level detection in whole slide images, along with challenges such as morphological heterogeneity, uneven staining, scale variation, and occluded cell boundary in bone marrow smears. To address these challenges, we construct a novel dataset comprising 1794 high-quality microscopic images, establishing a new benchmark for lymphocytic leukemia detection. Additionally, we develop a fully automated diagnostic method based on spatially-guided learning (SGLNet), enabling rapid whole slide analysis of leukemia. Specifically, we introduce several innovative enhancements to the baseline algorithm, including the spatially-guided learning framework, scale-aware fusion module, small object-enhancing mechanisms, and efficient intersection over union loss function. These improvements effectively address the impact of morphological similarity and complex backgrounds in leukemia detection, significantly enhancing detection accuracy. Finally, the results show that SGLNet achieves mean average precision scores of 95.9 % and 98.6 % in detecting acute lymphoblastic leukemia and chronic lymphocytic leukemia, respectively. These results demonstrate the efficiency and accuracy of our method in identifying lymphoblastic leukemia cells, significantly enhancing large-scale clinical diagnosis, and supporting clinicians in developing personalized treatment plans.⭐ our [article](https://www.sciencedirect.com/science/article/abs/pii/S0010482525012119) ⭐ 
+
+
+
+
 
 ## Requirements
 
 ```python
 pip install -r requirements.txt
 ```
-
-
-<p align="center"> <img src="Fig/Model.png" width="80%"> </p>
-
 
 ## Train
 
@@ -87,7 +94,15 @@ python val.py
 ## Acknowledgements
 This code is built on [ultralytics (PyTorch)](https://github.com/ultralytics/ultralytics). We thank the authors for sharing the codes.
 
-
+@article{
+  title={High-efficiency spatially guided learning network for lymphoblastic leukemia detection in bone marrow microscopy images},
+  author={Liye Mei, Chentao Lian, Suyang Han, Zhaoyi Ye, Yuyang Hua, Meixing Sun, Jing He, Zhiwei Ye, Mengqing Mei , Yaxiaer Yalikun, Hui Shen, Cheng Lei, Bei Xiong},
+  journal={Computers in Biology and Medicine},
+  volume={196},
+  number={110860},
+  year={2025},
+  publisher={Elsevier}
+}
 
 ## Contact
 If you have any questions, please contact me by email (102301204@hbut.edu.cn).
