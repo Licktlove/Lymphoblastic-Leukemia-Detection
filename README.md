@@ -19,7 +19,7 @@
 ## Overview
 
 <div>
-    <img src="figures/fig1.jpg" width="96%" height="96%">
+    <img src="figure/model.png" width="96%" height="96%">
 </div>
 
 **_Abstract -_** Leukemia is a hematologic tumor that proliferates in bone marrow and seriously affects the survival of patients. Early and accurate diagnosis is crucial for effective leukemia treatment. Traditional diagnostic methods rely on experts’ subjective analysis of bone marrow smears microscopic images. This approach is time-consuming and complex. Despite recent advances in deep learning, automated leukemia detection remains limited due to the scarcity of high-quality datasets, the prevailing focus on single-cell image classification rather than precise cell-level detection in whole slide images, along with challenges such as morphological heterogeneity, uneven staining, scale variation, and occluded cell boundary in bone marrow smears. To address these challenges, we construct a novel dataset comprising 1794 high-quality microscopic images, establishing a new benchmark for lymphocytic leukemia detection. Additionally, we develop a fully automated diagnostic method based on spatially-guided learning (SGLNet), enabling rapid whole slide analysis of leukemia. Specifically, we introduce several innovative enhancements to the baseline algorithm, including the spatially-guided learning framework, scale-aware fusion module, small object-enhancing mechanisms, and efficient intersection over union loss function. These improvements effectively address the impact of morphological similarity and complex backgrounds in leukemia detection, significantly enhancing detection accuracy. Finally, the results show that SGLNet achieves mean average precision scores of 95.9 % and 98.6 % in detecting acute lymphoblastic leukemia and chronic lymphocytic leukemia, respectively. These results demonstrate the efficiency and accuracy of our method in identifying lymphoblastic leukemia cells, significantly enhancing large-scale clinical diagnosis, and supporting clinicians in developing personalized treatment plans.⭐ our [article](https://www.sciencedirect.com/science/article/abs/pii/S0010482525012119) ⭐ 
@@ -88,7 +88,7 @@ python val.py
 ## Visualization of results
 
 
-<p align="center"> <img src="Fig/results.png" width="80%"> </p>
+<p align="center"> <img src="figure/results.png" width="80%"> </p>
 
 
 ## Acknowledgements
