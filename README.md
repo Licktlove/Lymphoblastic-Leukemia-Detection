@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ### 1. Prepare training data 
 
-- The dataset is available upon reasonable request. Please contact the  author for access.
+- The dataset is available upon reasonable request. Please contact the  author for access (lianchentao@hbut.edu.cn,meiliye@hbut.edu.cn).
 ```python
 SGLNet
 ├── LLD-2024
